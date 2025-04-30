@@ -1,0 +1,18 @@
+meta {
+  name: 6-register
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:3333/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "username":"baixianger",
+    "password":"pass123"
+  }
+}
